@@ -16,7 +16,7 @@ __start:
 	# Print prompt text
 	li a0, 4 
 	la a1, prompt
-	ecall
+	ecall # https://jupitersim.gitbook.io/jupiter/assembler/ecalls
 
 	# Input integer into register t3
 	li a0, 5
@@ -30,7 +30,7 @@ __start:
 
 	# Copy t3 into t2
 	mv t2, t3
-	
+
 fac:
 	addi t3, t3, -1 # Decrement t3
 	beq t3, zero, end # If t3 is 0, we're done here
