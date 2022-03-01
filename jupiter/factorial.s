@@ -8,8 +8,8 @@
 .globl __start
 
 .rodata
-  prompt: .string "Factorial of: "
-  output: .string "Result: "
+	prompt: .string "Factorial of: "
+	output: .string "Result: "
 .text
 
 __start:	

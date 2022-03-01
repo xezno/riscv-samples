@@ -9,8 +9,8 @@
 .globl __start
 
 .rodata
-  prompt: .string "Input: "
-  output: .string "Hex: "
+	prompt: .string "Input: "
+	output: .string "Hex: "
 .text
 
 __start:	
